@@ -6,7 +6,7 @@ Submitted by: Kayla Nguyen
 
 Time spent: 4 hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/memory-game-kmnguyen436
+Link to project: https://glitch.com/edit/#!/memory-game-kmnguyen436
 
 ## Required Functionality
 
