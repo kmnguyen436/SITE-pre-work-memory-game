@@ -73,10 +73,15 @@ text. It was initially 0 and I wanted it to increase by one after every complete
 it without help so I looked up solutions on google. I found quite a lot of posts on stackoverflow.com; however, none 
 of the solutions didn’t seem to help at first. Luckily, I stumbled upon the right one after going through many different 
 links and was able to get my program to work the way I wanted it to. 
-    My last problem was figuring out how create random patterns for every new game. It took me significantly less time 
+    Another problem was figuring out how create random patterns for every new game. It took me significantly less time 
 than my first two problems, but I still had abit of trouble with it. I didn’t know why I was getting an error that said 
 “Cannot read property ‘length’ of undefined.” I took a closer look at my code and realized I had forgotten to include the
 array input for my createPattern function. After that, I tested my program and to my surprise, it works!
+    My last problem was really strange. In the beginning, my audio was fine. All of a sudden, I couldn't hear anything anymore
+even though I didn't touch the audio codes. I decided to look at the console log and found a warning message that said "The
+AudioContext was not allowed to start." I searched this problem on google and found some more solutions and implemented it to my
+code and now it seems to be working fine. I still get the warning messages on console log though. I'm still not entirely sure what's 
+going on with the audio.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
     How do web developers keep their codes organized when there is a lot of code or functions to add? It seems really 
