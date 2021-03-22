@@ -81,8 +81,10 @@ function startTone(btn){
     o.frequency.value = freqMap[btn]
     g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025)
     tonePlaying = true
+
   }
 }
+
 function stopTone(){
     g.gain.setTargetAtTime(0,context.currentTime + 0.05,0.025)
     tonePlaying = false
@@ -97,7 +99,12 @@ g.connect(context.destination)
 g.gain.setValueAtTime(0,context.currentTime)
 o.connect(g)
 o.start(0)
-
+document.documentElement.addEventListener(
+  "mousedown", function(){
+    onmousedown = true;
+    if (o.context.state !== 'StartTone(1)') {
+    o.context.resume();
+  }})
 function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit")
 }
