@@ -41,12 +41,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 Part 1:
+
 ![](https://i.imgur.com/deM7hwK.gif)
 
+
 Part 2:
+
 ![](https://i.imgur.com/r4FYIwG.gif)
 
+
 Part 3:
+
 ![](https://i.imgur.com/kYU1G9i.gif)
 
 GIFs created with ezgif.com
